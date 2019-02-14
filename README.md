@@ -1,6 +1,6 @@
 # :computer: nodejs-typescript-typeorm
 
-A quick start for implement api with express and typescript.
+ A quick start to create API with ExpressJS, Typescript and TypeORM
 
 ---
 
