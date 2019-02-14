@@ -1,0 +1,31 @@
+{
+    "name": "nodejs-typescript-typeorm",
+    "version": "1.0.0",
+    "main": "./src/index.ts",
+    "license": "MIT",
+    "author": "Fábio Santini Maiorano",
+    "scripts": {
+        "dev": "nodemon",
+        "build:dev": "tsc -c tsconfig.json",
+        "build:prod": "tsc -c tsconfig.production.json"
+    },
+    "dependencies": {
+        "body-parser": "^1.18.3",
+        "cors": "^2.8.5",
+        "express": "^4.16.4",
+        "express-validator": "^5.3.1",
+        "pg": "^7.8.0",
+        "reflect-metadata": "^0.1.13",
+        "typeorm": "^0.2.13"
+    },
+    "devDependencies": {
+        "@types/body-parser": "^1.17.0",
+        "@types/cors": "^2.8.4",
+        "@types/express": "^4.16.1",
+        "@types/express-validator": "^3.0.0",
+        "@types/node": "^11.9.3",
+        "nodemon": "^1.18.10",
+        "ts-node": "^8.0.2",
+        "typescript": "^3.3.3"
+    }
+}
