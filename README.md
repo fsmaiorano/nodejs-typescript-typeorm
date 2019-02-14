@@ -1,4 +1,4 @@
-# :computer: NodeJS API Typescript
+# :computer: A quick start to create API with ExpressJS, Typescript and TypeORM
 
 A quick start for implements api with express and typescript.
 
