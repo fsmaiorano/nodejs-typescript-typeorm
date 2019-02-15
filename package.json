@@ -6,8 +6,8 @@
     "author": "Fábio Santini Maiorano",
     "scripts": {
         "dev": "nodemon",
-        "build:dev": "tsc -c tsconfig.json",
-        "build:prod": "tsc -c tsconfig.production.json"
+        "build:dev": "tsc --p tsconfig.json",
+        "build:prod": "tsc --p tsconfig.production.json"
     },
     "dependencies": {
         "body-parser": "^1.18.3",
