@@ -15,7 +15,14 @@ export class User {
     public password: string = '';
 
     //example
-    //@ManyToOne(type => User, user => user.id, { onDelete: 'CASCADE', onUpdate: 'CASCADE' })
+    // @ManyToOne(() => UserEntity, user => user.id, {
+    //     onDelete: 'CASCADE',
+    //     onUpdate: 'CASCADE',
+    //     nullable: false,
+    //     eager: false
+    // })
+    // @JoinColumn({ referencedColumnName: 'id', name: 'userId' })
+    // public userId!: number;
     //user!: User;
 }
 
